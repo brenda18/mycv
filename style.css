@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("bg.jpg");
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+    font-family: comic sans ms;;
+}
+ p  {
+    color: white;
+    font-family: courier;
+    font-size: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4286f4;
+}
